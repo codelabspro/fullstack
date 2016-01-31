@@ -6,3 +6,20 @@ allprojects {
 subprojects {
     //Put instructions for each sub project
 }
+// API Project specific stuff
+project(':api') {
+
+}
+
+// Common Project specific stuff
+project(':common') {
+    apply plugin: "java"
+    repositories {
+        mavenCentral()
+    }
+}
+
+// App Project specific stuff
+project(':app') {
+
+}
