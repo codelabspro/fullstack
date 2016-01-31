@@ -1,2 +1,12 @@
 apply plugin: "java"
+archivesBaseName = "stack"
+version = '1.0-FINAL'
+
+repositories {
+ mavenCentral()
+}
+
+dependencies {
+ compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.3.2'
+}
 
